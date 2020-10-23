@@ -36,3 +36,33 @@ Joseph Reyes			https://github.com/jossjack
 
 LINK del gist 
 https://gist.github.com/maxzapata/8498133ceca89c2e7025f69812b86c07
+
+git checkout -b v0.2
+
+vi 2.txt
+
+git add --a
+
+git commit -m "Subida fichero 2.txt"
+
+git push sshuah v0.2
+
+git checkout main
+
+git merge v0.2
+
+#Se añade Hola al fichero 1.txt en la rama main
+#Se añade Adios al fichero 1.txt en la rama v0.2
+
+git merge v0.2
+
+git branch --merged
+
+git branch --no-merged
+
+#Se arregla el fichero1.txt
+
+git add --a
+
+git commit -m "fix del fichero 1.txt"
+
